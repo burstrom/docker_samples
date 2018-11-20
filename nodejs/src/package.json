@@ -1,0 +1,27 @@
+{
+  "name": "nodejs_example_webserver",
+  "version": "1.0.0",
+  "description": "Simple docker container with serving example webapp",
+  "main": "example_server.js",
+  "scripts": {
+  	"start": "node example_server.js",
+    	"test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/burstrom/docker_samples.git"
+  },
+  "keywords": [
+    "docker",
+    "nodejs"
+  ],
+  "author": "Johan Burström",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/burstrom/docker_samples/issues"
+  },
+  "homepage": "https://github.com/burstrom/docker_samples#readme",
+  "dependencies": {
+    "express": "^4.16.4"
+  }
+}
