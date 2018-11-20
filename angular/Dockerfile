@@ -13,7 +13,7 @@ WORKDIR /app
 RUN npm install
 
 # Expose frontend  port to the outside
-EXPOSE 8000
+EXPOSE 4200
 
 # Launch application
 CMD ["npm", "start"]
